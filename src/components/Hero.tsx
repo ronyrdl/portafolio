@@ -14,8 +14,7 @@ const Hero = () => {
           transition={{ duration: 0.6 }}
           className="mb-5 text-sm font-medium uppercase tracking-[0.3em] text-orange-400"
         >
-          Bienvenido a mi portafolio
-        </motion.p>
+          Welcome to my portafolio       </motion.p>
 
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
@@ -59,7 +58,7 @@ const Hero = () => {
             whileTap={{ scale: 0.95 }}
             className="rounded-full bg-orange-600 px-7 py-3 font-medium transition hover:bg-orange-700"
           >
-            See my projects
+            See projects
           </motion.a>
 
           <motion.a
