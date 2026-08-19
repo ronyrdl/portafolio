@@ -32,14 +32,14 @@ const Footer = () => {
           </a>
 
           <a
-            href="www.linkedin.com/in/ronaldo-rodriguez-de-lima-b777b6345"
+            href="https://www.linkedin.com/in/ronaldo-rodriguez-de-lima-b777b6345"
             className="transition hover:text-orange-500"
           >
             LinkedIn
           </a>
 
           <a
-            href="ronaldorodriguezdelima@gmail.com"
+            href="mailto:ronaldorodriguezdelima@gmail.com"
             className="transition hover:text-orange-500"
           >
             Email
