@@ -28,7 +28,7 @@ export const projects: Project[] = [
     title: "Venus",
     description:
       "A static website showcasing the Venus Accessories collection, featuring exclusive jewelry and accessories available for immediate delivery.",
-    technologies: ["React", "JavaScript", "FastAPI", "SQL"],
+    technologies: ["HTML", "JavaScript", "CSS"],
     video: venus,
     github: "https://github.com/ronyrdl/venus.git",
   
