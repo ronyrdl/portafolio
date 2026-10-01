@@ -14,10 +14,10 @@ const Footer = () => {
 
         <div>
           <h2 className="text-2xl font-bold">
-            Ronaldo<span className="text-orange-500">.</span>
+            Ronaldo<span className="text-orange-700">.</span>
           </h2>
 
-          <p className="mt-2 text-sm text-gray-500">
+          <p className="mt-2 text-sm text-gray-400">
             Front-end junior developer
           </p>
         </div>
@@ -26,21 +26,21 @@ const Footer = () => {
 
           <a
             href="https://github.com/ronyrdl"
-            className="transition hover:text-orange-500"
+            className="transition hover:text-orange-700"
           >
             GitHub
           </a>
 
           <a
             href="https://www.linkedin.com/in/ronaldo-rodriguez-de-lima-b777b6345"
-            className="transition hover:text-orange-500"
+            className="transition hover:text-orange-700"
           >
             LinkedIn
           </a>
 
           <a
             href="mailto:ronaldorodriguezdelima@gmail.com"
-            className="transition hover:text-orange-500"
+            className="transition hover:text-orange-700"
           >
             Email
           </a>
@@ -49,7 +49,7 @@ const Footer = () => {
 
       </div>
 
-      <p className="mx-auto mt-12 max-w-6xl text-center text-xs text-gray-600">
+      <p className="mx-auto mt-12 max-w-9xl text-center text-sm text-white">
         © 2026 Ronaldo. All rights reserved.
       </p>
 

@@ -12,7 +12,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="mb-5 text-sm font-medium uppercase tracking-[0.3em] text-orange-400"
+          className="mb-5 text-sm font-medium uppercase tracking-[0.3em] text-orange-600"
         >
           Welcome to my portafolio       </motion.p>
 
@@ -23,7 +23,7 @@ const Hero = () => {
           className="text-5xl font-bold  md:text-7xl"
         >
           Hi there, I'm{" "}
-          <span className="text-orange-500">
+          <span className="text-orange-600">  
             Ronaldo
           </span>
         </motion.h1>

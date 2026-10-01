@@ -14,13 +14,13 @@ const About = () => {
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.7 }}
         >
-          <p className="mb-3 text-sm font-medium uppercase tracking-[0.3em] text-orange-400">
+          <p className="mb-3 text-sm font-medium uppercase tracking-[0.3em] text-orange-600">
             About me
           </p>
 
           <h2 className="text-4xl font-bold md:text-5xl">
             working on intuitive
-            <span className="text-orange-500"> designs</span>
+            <span className="text-orange-600"> designs</span>
           </h2>
         </motion.div>
 

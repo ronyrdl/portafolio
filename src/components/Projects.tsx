@@ -16,13 +16,13 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.7 }}
         >
-          <p className="mb-3 text-sm font-medium uppercase tracking-[0.3em] text-orange-400">
+          <p className="mb-3 text-sm font-medium uppercase tracking-[0.3em] text-orange-600">
             Proyects
           </p>
 
           <h2 className="text-4xl font-bold md:text-5xl">
             Some of my {" "}
-            <span className="text-orange-500">
+            <span className="text-orange-600">
               projects.
             </span>
           </h2>
@@ -72,7 +72,7 @@ const Projects = () => {
                   muted
                   loop
                   playsInline
-                  className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                  className="h-full w-full object-cover transition duration-500 group-hover:scale-100 "
                 />
               </motion.div>
 
@@ -86,12 +86,12 @@ const Projects = () => {
               >
 
                 {/* Project number */}
-                <span className="text-sm  font-bold text-orange-400">
+                <span className="text-sm  font-bold text-white">
                   0{project.id}
                 </span>
 
                 {/* Title */}
-                <h3 className="mt-3 text-3xl font-bold md:text-4xl">
+                <h3 className="mt-3 text-3xl font-bold md:text-4xl text-orange-600">
                   {project.title}
                 </h3>
 
@@ -120,12 +120,12 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     whileHover={{
                       y: -3,
-                      scale: 1.03,
+                      scale: 0.9,
                     }}
                     whileTap={{
-                      scale: 0.97,
+                      scale: 0.9,
                     }}
-                    className="inline-flex items-center gap-2 rounded-full border border-white/15 px-5 py-2.5 text-sm font-medium transition hover:border-orange-600 hover:bg-orange-600"
+                    className="inline-flex items-center gap-2 rounded-full border border-white/15 px-5 py-2.5 text-sm font-medium transition hover:border-orange-600 hover:bg-orange-800"
                   >
                     GitHub
                     <span>↗</span>

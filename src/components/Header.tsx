@@ -13,8 +13,8 @@ const Header = () => {
         {/* Logo */}
         <motion.a
           href="#home"
-          whileHover={{ scale:1.3 }}
-          whileTap={{ scale: 0.66 }}
+          whileHover={{ scale:1.4}}
+          whileTap={{ scale: 1 }}
           className="text-3xl font-bold tracking-tight"
         >
           R<span className="text-orange-500">.</span>
@@ -25,21 +25,21 @@ const Header = () => {
 
           <a
             href="#home"
-            className=" text-white transition-colors hover:text-orange-400"
+            className=" text-white transition-colors hover:text-orange-500"
           >
             Home
           </a>
 
           <a
             href="#about"
-            className=" text-white transition-colors hover:text-orange-400"
+            className=" text-white transition-colors hover:text-orange-500"
           >
             About me 
           </a>
 
           <a
             href="#projects"
-            className=" text-white transition-colors hover:text-orange-400"
+            className=" text-white transition-colors hover:text-orange-500"
           >
             Projects
           </a>
@@ -57,7 +57,7 @@ const Header = () => {
           whileTap={{
             scale: 0.95,
           }}
-          className="rounded-full border border-orange-500/50 px-5 py-2 text-sm font-medium transition-colors hover:bg-orange-500"
+          className="rounded-full border border-orange-500/50 px-5 py-2 text-sm font-medium transition-colors hover:bg-orange-600"
         >
           Contacts
         </motion.a>
